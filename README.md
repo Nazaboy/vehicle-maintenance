@@ -2,6 +2,7 @@
 This project establishes a data pipeline to clean, transform, and prepare vehicle maintenance data for analysis and predictive modeling. The pipeline performs essential data quality checks to ensure completeness, validity, and consistency, storing the processed data in a SQLite database. The ultimate goal is to enable data analysis and predictive modeling to anticipate vehicle maintenance needs.
 
 ## Project Structure 
+```bash
 vehicle_maintenance_project/
 ├── config/                  # Configuration files
 │   └── config.yaml          # YAML file for paths and settings
@@ -22,7 +23,7 @@ vehicle_maintenance_project/
 ├── tests/                   # Test files for each module
 ├── requirements.txt         # Project dependencies
 └── main.py                  # Main script to execute the pipeline
-
+```
 
 ## Getting Started
 ### Prerequisites
