@@ -1,0 +1,20 @@
+2024-10-25 16:35:37,143 - INFO - Data Quality - Completeness: True, Validity: True, Consistency: False
+2024-10-25 16:36:04,015 - INFO - Data Quality - Completeness: True, Validity: True, Consistency: False
+2024-10-25 16:36:04,015 - WARNING - Data quality checks failed.
+2024-10-25 16:38:05,510 - INFO - Found duplicate records before removal:
+2024-10-25 16:38:05,510 - INFO -       Vehicle_Model  Mileage Maintenance_History  Reported_Issues  Vehicle_Age Fuel_Type  ... Accident_History  Fuel_Efficiency  Tire_Condition Brake_Condition Battery_Status Need_Maintenance
+6        Motorcycle    51211             Average                2            8    Diesel  ...                0        16.455703             New            Good            New                0
+17       Motorcycle    37956             Average                0            3  Electric  ...                3        10.007130        Worn Out             New            New                0
+22       Motorcycle    79936             Average                0           10  Electric  ...                3        16.225240        Worn Out             New           Weak                1
+48       Motorcycle    47601                Good                0            3    Petrol  ...                0        13.941041             New        Worn Out            New                1
+51       Motorcycle    37195             Average                2            9    Diesel  ...                0        11.450872             New            Good           Weak                1
+...             ...      ...                 ...              ...          ...       ...  ...              ...              ...             ...             ...            ...              ...
+49867           Bus    76435             Average                4            1    Petrol  ...                1        16.062290        Worn Out            Good            New                1
+49875         Truck    43361                Good                3            7    Diesel  ...                3        12.020647            Good            Good           Weak                1
+49925    Motorcycle    63233                Good                3            9    Petrol  ...                3        15.187813            Good        Worn Out           Good                1
+49965           Car    79574                Good                5            4    Diesel  ...                1        18.673922             New             New           Good                1
+49978           Car    32590             Average                4           10    Diesel  ...                2        13.774643        Worn Out             New            New                1
+
+[2814 rows x 20 columns]
+2024-10-25 16:38:05,523 - INFO - Duplicates removed based on 'Vehicle_Model' and 'Odometer_Reading'.
+2024-10-25 16:38:05,542 - INFO - Data Quality - Completeness: True, Validity: True, Consistency: True

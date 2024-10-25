@@ -1,0 +1,13 @@
+# config/config.yaml
+
+database:
+  driver: sqlite
+  db_path: vehicle_maintenance.db
+
+logging:
+  level: INFO
+  file: logs/pipeline.log
+
+file_paths:
+  raw_data: data/raw/vehicle_maintenance.csv
+  processed_data: data/processed/cleaned_data.csv
